@@ -25,4 +25,9 @@ Welcome to my personal portfolio website built using **HTML**, **CSS**, **JavaSc
 ---
 
 ## 📂 Project Structure
-
+PORTFOLIO/
+│
+├── index.html          # Main HTML file containing the website structure
+├── style.css           # Custom CSS styles (styling for layout, colors, fonts, etc.)
+├── script.js           # JavaScript file to dynamically load projects and add interactivity
+└── README.md           # Documentation file (you’re reading it!)
