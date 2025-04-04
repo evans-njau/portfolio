@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #2ecc71;
+    --dark-color: #1a1a1a;
+    --bg-color: #111;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-color);
+    color: white;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.hero {
+    background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.btn-custom {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: #27ae60;
+}
+
+.project-card {
+    background-color: #222;
+    color: white;
+    transition: transform 0.3s;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+}
+
+.badge-blade { background-color: #61DBFB; }
+.badge-laravel { background-color: #68A063; }
+.badge-mysql { background-color: #4DB33D; }
+.badge-Boostrap { background-color: #42B883; }
+.badge-PHP { background-color: #FFCA28; color: black; }
+.badge-smtp { background-color: #3776AB; }
+.badge-html { background-color: #E34F26; }
+.badge-css { background-color: #1572B6; }
+.badge-js { background-color: #F7DF1E; color: black; }
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: var(--primary-color);
+    transition: transform 0.3s ease, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #27ae60;
+}
+
+footer {
+    background-color: var(--dark-color);
+    text-align: center;
+    padding: 20px;
+}
