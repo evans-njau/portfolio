@@ -36,3 +36,9 @@ PORTFOLIO/
 ├── script.js           # JavaScript file to dynamically load projects and add interactivity
 
 └── README.md           # Documentation file (you’re reading it!)
+
+## 🌐 Live Preview
+
+🔗 **Click here to visit:**  
+👉 [portfolio](https://evans-njau.github.io/portfolio/)
+
